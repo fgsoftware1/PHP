@@ -48,7 +48,7 @@
                 <option value="M" <?php echo(isset($Sexo_Aluno) ? ($Sexo_Aluno='M' ? 'selected' : '') : ''); ?>>Maculino</option>
                 <option value="F" <?php echo(isset($Sexo_Aluno) ? ($Sexo_Aluno='F' ? 'selected' : '') : ''); ?>>Feminino</option>
             </select>
-            <label for="auno_atico">Aluno Ativo</label>
+            <label for="auno_ativo">Aluno Ativo</label>
             <select name="aluno_ativo">
                 <option value="sim" <?php echo(isset($Aluno_Ativo) ? ($Sexo_Aluno='sim' ? 'selected' : '') : ''); ?>>ativo</option>
                 <option value="nso" <?php echo(isset($Aluno_Ativo) ? ($Sexo_Aluno='nso' ? 'selected' : '') : ''); ?>>nao ativo</option>
